@@ -2,49 +2,55 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Contato - Nutrição Inteligente Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição Inteligente Pro | Oficial</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="font-family: sans-serif; margin: 0; padding: 0;">
     <header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
         <h1>Nutrição Inteligente Pro</h1>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: center; gap: 15px; padding: 10px 0;">
+                <li><a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Início</a></li>
+                <li><a href="sobre.html" style="color: white; text-decoration: none;">Sobre</a></li>
+                <li><a href="contato.html" style="color: white; text-decoration: none;">Contato</a></li>
+                <li><a href="politica.html" style="color: white; text-decoration: none;">Privacidade</a></li>
+            </ul>
+        </nav>
     </header>
-    <main style="max-width: 800px; margin: 40px auto; padding: 20px; font-family: sans-serif; text-align: center;">
-        <h2>Fale com Uanderson Martins</h2>
-        <p>Dúvidas sobre nutrição ou parcerias? Entre em contato:</p>
-        <p><strong>E-mail:</strong> andubryranrj@hotmail.com</p>
-        <p><strong>WhatsApp:</strong> (21) 99244-4504</p>
-        <div style="margin-top: 30px;">
-            <a href="index.html" style="color: #2e7d32; font-weight: bold;">← Voltar ao Início</a>
-        </div>
-    </main>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Hidratação e Nutrição - Nutrição Inteligente Pro</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
-        <h1>Nutrição Inteligente Pro</h1>
-    </header>
-    <main style="max-width: 800px; margin: 20px auto; padding: 20px; font-family: sans-serif; line-height: 1.6;">
-        <h2>O Pilar da Vida: Água e Planejamento</h2>
-        
-        <h3>1. A Importância da Hidratação</h3>
-        <p>A água é o solvente universal do seu corpo. Sem ela, seu metabolismo "trava". Recomendamos o cálculo de 35ml por quilo de peso corporal.</p>
-        
-        <h3>2. Como se Alimentar Corretamente</h3>
-        <p>Não é apenas o que você come, mas como come. Mastigar devagar e escolher alimentos in natura (frutas, legumes) é o primeiro passo para o sucesso.</p>
 
-        <div style="background: #e8f5e9; padding: 15px; border-left: 5px solid #2e7d32; margin: 20px 0;">
-            <strong>Dica de Ouro:</strong> Nenhuma dica de internet substitui um <strong>Nutricionista</strong>. Consulte um profissional para um plano personalizado.
+    <main style="max-width: 1000px; margin: auto; padding: 20px;">
+        <section style="text-align: center; margin-bottom: 30px;">
+            <h2>Portal de Saúde e Bem-Estar</h2>
+            <p>Informação técnica para uma vida mais equilibrada.</p>
+        </section>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;">
+                <h3>💧 Hidratação e Água</h3>
+                <p>O primeiro passo de qualquer dieta. Beba 35ml de água por quilo para manter seu sistema rodando perfeitamente.</p>
+                <a href="guia-alimentar.html" style="color: #2e7d32; font-weight: bold;">Ver Dicas de Água</a>
+            </div>
+
+            <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;">
+                <h3>🥗 Como se Alimentar</h3>
+                <p>Priorize alimentos naturais. A reeducação alimentar é a base para o emagrecimento definitivo.</p>
+                <a href="emagrecimento-definitivo.html" style="color: #2e7d32; font-weight: bold;">Ver Guia</a>
+            </div>
+
+            <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;">
+                <h3>👩‍⚕️ Nutricionistas</h3>
+                <p>Dica de Ouro: Nosso portal é educativo. Para resultados específicos, consulte sempre um nutricionista.</p>
+                <a href="contato.html" style="color: #2e7d32; font-weight: bold;">Fale Conosco</a>
+            </div>
         </div>
-        
-        <a href="index.html" style="color: #2e7d32; font-weight: bold;">← Voltar</a>
     </main>
+
+    <footer style="text-align: center; padding: 30px; background: #f4f4f4; margin-top: 50px;">
+        <p><strong>Uanderson Martins</strong> - Analista de Sistemas</p>
+        <p>E-mail: andubryranrj@hotmail.com | WhatsApp: (21) 99244-4504</p>
+        <p><small>&copy; 2026 Nutrição Inteligente Pro</small></p>
+    </footer>
 </body>
 </html>
+
