@@ -95,6 +95,50 @@
         <a href="politica.html" style="color: #aaa; text-decoration: none;">Política de Privacidade</a>
     </div>
 </footer>
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>O Que Comer | Nutrição Inteligente Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; margin: 0;">
+    <header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
+        <h1>O Que Comer para ter Saúde</h1>
+    </header>
+    <main style="max-width: 800px; margin: 20px auto; padding: 20px;">
+        <h2>🍎 Alimentos que Transformam seu Sistema</h2>
+        <p>Para um funcionamento perfeito do corpo, priorize:</p>
+        <ul>
+            <li><strong>Frutas:</strong> Maçã, banana e frutas cítricas para imunidade.</li>
+            <li><strong>Proteínas:</strong> Ovos, peixes e frango grelhado.</li>
+            <li><strong>Carboidratos:</strong> Batata doce, aveia e arroz integral.</li>
+        </ul>
+        <a href="index.html" style="color: #2e7d32; font-weight: bold;">← Voltar ao Início</a>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Plano Alimentar | Nutrição Inteligente Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; margin: 0;">
+    <header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
+        <h1>📅 Sugestão de Rotina Diária</h1>
+    </header>
+    <main style="max-width: 800px; margin: 20px auto; padding: 20px;">
+        <h3>Café da Manhã</h3>
+        <p>Ovos mexidos com 1 fatia de pão integral e café sem açúcar.</p>
+        <h3>Almoço</h3>
+        <p>Grande porção de salada, 1 concha de feijão, arroz integral e uma fonte de proteína.</p>
+        <h3>Jantar</h3>
+        <p>Sopa de legumes ou grelhado leve para não pesar no sono.</p>
+        <a href="index.html" style="color: #2e7d32; font-weight: bold;">← Voltar</a>
+    </main>
+</body>
+</html>
 </body>
 </html>
