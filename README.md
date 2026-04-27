@@ -58,6 +58,16 @@
         <p>&copy; 2026 Nutrição Inteligente Pro - Por <strong>Uanderson Martins</strong></p>
         <p><small>Analista de Sistemas e Entusiasta de Saúde</small></p>
     </footer>
-
+<header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
+    <h1>Nutrição Inteligente Pro</h1>
+    <nav>
+        <ul style="list-style: none; display: flex; justify-content: center; gap: 15px; padding: 0;">
+            <li><a href="index.html" style="color: white;">Início</a></li>
+            <li><a href="sobre.html" style="color: white;">Sobre</a></li>
+            <li><a href="contato.html" style="color: white;">Contato</a></li>
+            <li><a href="politica.html" style="color: white;">Privacidade</a></li>
+        </ul>
+    </nav>
+</header>
 </body>
 </html>
