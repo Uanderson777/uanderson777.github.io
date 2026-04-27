@@ -3,71 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutrição Inteligente Pro | Portal Oficial</title>
+    <title>Nutrição Inteligente Pro | Oficial</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Estilos rápidos para garantir que tudo fique bonito */
-        .card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 20px; }
-        .card { border: 1px solid #e0e0e0; border-radius: 10px; padding: 20px; text-align: center; transition: 0.3s; }
-        .card:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        .btn { display: inline-block; background: #2e7d32; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
-    </style>
 </head>
 <body>
-
-    <header style="background: #2e7d32; color: white; padding: 30px 20px; text-align: center;">
+    <header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
         <h1>Nutrição Inteligente Pro</h1>
         <nav>
             <ul style="list-style: none; display: flex; justify-content: center; gap: 15px; padding: 10px 0;">
-                <li><a href="index.html" style="color: white; font-weight: bold;">Início</a></li>
-                <li><a href="sobre.html" style="color: white;">Sobre</a></li>
-                <li><a href="contato.html" style="color: white;">Contato</a></li>
-                <li><a href="politica.html" style="color: white;">Privacidade</a></li>
+                <li><a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Início</a></li>
+                <li><a href="sobre.html" style="color: white; text-decoration: none;">Sobre</a></li>
+                <li><a href="contato.html" style="color: white; text-decoration: none;">Contato</a></li>
+                <li><a href="politica.html" style="color: white; text-decoration: none;">Privacidade</a></li>
             </ul>
         </nav>
     </header>
 
-    <main style="max-width: 1100px; margin: auto;">
-        <section style="text-align: center; padding: 40px 20px;">
-            <h2>Saúde, Água e Nutrição</h2>
-            <p>Seu sistema biológico precisa dos nutrientes corretos. Explore nossos guias abaixo:</p>
+    <main style="max-width: 1000px; margin: auto; padding: 20px; font-family: sans-serif;">
+        <section style="text-align: center; margin-bottom: 30px;">
+            <h2>Saúde, Água e Nutrição Inteligente</h2>
+            <p>Seu sistema biológico precisa dos nutrientes e da hidratação correta para performar.</p>
         </section>
 
-        <div class="card-container">
-            <div class="card">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; text-align: center;">
                 <h3>Hidratação e Água</h3>
-                <p>A base de tudo. Saiba como a água otimiza seu metabolismo e energia diária.</p>
-                <a href="guia-alimentar.html" class="btn">Ver Guia</a>
+                <p>A base do metabolismo. Como se alimentar e hidratar com eficiência.</p>
+                <a href="guia-alimentar.html" style="color: #2e7d32; font-weight: bold;">Ver Guia</a>
             </div>
-
-            <div class="card">
-                <h3>Emagrecimento Consciente</h3>
-                <p>Estratégias inteligentes para perder peso sem passar fome ou gastar muito.</p>
-                <a href="emagrecimento-definitivo.html" class="btn">Ver Segredos</a>
+            <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; text-align: center;">
+                <h3>Emagrecimento</h3>
+                <p>Segredos técnicos para um déficit calórico consciente e saudável.</p>
+                <a href="emagrecimento-definitivo.html" style="color: #2e7d32; font-weight: bold;">Ver Artigo</a>
             </div>
-
-            <div class="card">
-                <h3>Dieta Simples e Barata</h3>
-                <p>Como comer bem usando alimentos acessíveis e nutritivos do dia a dia.</p>
-                <a href="dieta-simples-e-barata.html" class="btn">Ver Dicas</a>
+            <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; text-align: center;">
+                <h3>Nutricionistas</h3>
+                <p>A importância do acompanhamento profissional para fechar com "Chave de Ouro".</p>
+                <a href="sobre.html" style="color: #2e7d32; font-weight: bold;">Saiba Mais</a>
             </div>
         </div>
     </main>
 
-    <footer style="background: #f1f1f1; text-align: center; padding: 20px; margin-top: 50px;">
-        <p>&copy; 2026 Nutrição Inteligente Pro - Por <strong>Uanderson Martins</strong></p>
-        <p><small>Analista de Sistemas e Entusiasta de Saúde</small></p>
+    <footer style="text-align: center; padding: 20px; background: #f4f4f4; margin-top: 40px;">
+        <p>&copy; 2026 Nutrição Inteligente Pro - Uanderson Martins</p>
+        <p>E-mail: andubryranrj@hotmail.com | WhatsApp: (21) 99244-4504</p>
     </footer>
-<header style="background: #2e7d32; color: white; padding: 20px; text-align: center;">
-    <h1>Nutrição Inteligente Pro</h1>
-    <nav>
-        <ul style="list-style: none; display: flex; justify-content: center; gap: 15px; padding: 0;">
-            <li><a href="index.html" style="color: white;">Início</a></li>
-            <li><a href="sobre.html" style="color: white;">Sobre</a></li>
-            <li><a href="contato.html" style="color: white;">Contato</a></li>
-            <li><a href="politica.html" style="color: white;">Privacidade</a></li>
-        </ul>
-    </nav>
-</header>
 </body>
 </html>
